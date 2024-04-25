@@ -4,11 +4,33 @@
 /* Configuracoes principais ( Mobile) */
 
 *{
-
+    padding: 0px;
+    margin: 0px;
 }
 body, html{
-    background-image: linear-gradient(to top, rgb(0, 0, 0) ,  blueviolet ) r;
+    background: blueviolet ;
     
+}
+#sobre{
+    position: relative;
+    margin: auto;
+}
+.filho{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-20%, 40%);
+    width: 300px;
+    height: 300px;
+}
+.filho > h1{
+    font-size: 3em;
+    line-height: 70px;
+}
+.filho > p{
+    font-size: 1.2em;
+    text-align: justify;
+    letter-spacing:2px;
 }
 #redes_sociais > a > img{
     display: block;
@@ -19,6 +41,7 @@ body, html{
     height: 50px;
 }
 #redes_sociais > a > img:hover{
-    background-color: blueviolet;
+    background-color:rgba(44, 26, 61, 0.274) ;
+    
     
 }
