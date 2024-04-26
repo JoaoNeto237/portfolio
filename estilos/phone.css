@@ -8,12 +8,16 @@
     margin: 0px;
 }
 body, html{
-    background: blueviolet ;
+    background:linear-gradient(to right, purple, blueviolet);
+    color: white;
     
 }
 #sobre{
     position: relative;
     margin: auto;
+}
+#nome{
+    color: rgb(61, 28, 61);
 }
 .filho{
     position: absolute;
@@ -24,13 +28,25 @@ body, html{
     height: 300px;
 }
 .filho > h1{
-    font-size: 3em;
+    font-size: 2.5em;
     line-height: 70px;
+    color:linear-gradient(to right, purple, blueviolet);
 }
-.filho > p{
-    font-size: 1.2em;
-    text-align: justify;
-    letter-spacing:2px;
+.botao{
+    padding: 10px;
+    background-color: purple;
+    margin-top: 15px;
+    border-radius: 20px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.botao:hover{
+    background-color: rgb(87, 39, 133);
+}
+.botao > a{
+    text-decoration: none;
+    color:white;
+    
 }
 #redes_sociais > a > img{
     display: block;
