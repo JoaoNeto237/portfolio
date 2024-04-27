@@ -8,10 +8,10 @@
     margin: 0px;
 }
 body, html{
-    background:linear-gradient(to right, purple, blueviolet);
+    background-color: rgb(20, 3, 22);
+
     color: white;
-    /*overflow-y: hidden;*/
-    
+
 }
 header{
     margin: 0px;
@@ -31,7 +31,7 @@ i#burguer{
     cursor: pointer;
 }
 i#burguer:hover{
-    background-color: purple;
+    background-color: rgb(55, 12, 59);
     color:white ;
 }
 menu{
@@ -47,10 +47,22 @@ menu > ul > li > a{
     text-decoration: none;
     color: white;
     text-align: left;
-    background-color: purple;
+    background-color: rgb(55, 12, 59);
 }
 menu > ul > li > a:hover{
-    background-color: blueviolet;
+    background-color: rgb(67, 15, 71);
+}
+nav.card img  {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: white;
+    padding: 2px;
+    margin-bottom: 10px;
+    margin-left: 40px;
+}
+.icon:hover{
+    background-color: blue;
 }
 
 #principal{
@@ -58,7 +70,7 @@ menu > ul > li > a:hover{
     display: flex;
     justify-content: center;
     margin-top: 70px;
-    height: 500px;
+    height: 100vh;
 }
 .perfil > img{
     width: 150px;
@@ -78,6 +90,7 @@ section{
 }
 section > h2{
     text-align: center;
+    margin-top: 70px;
     
 }
 section > p{
@@ -86,5 +99,31 @@ section > p{
     word-wrap: break-word;
     line-height: 20px;
     margin: 30px;
+}
+#skills > h2{
+    color: white;
+    font-size: 1.3em;
+    text-align: center;
+}
+.h1{
+    font-size: 20px;
+    text-align: center;
+}
+#skills > .btskills{
+    border-radius: 10px;
+    background-color: transparent;
+    color: white;
+    border-collapse: collapse;
+    padding: 5px 30px;
+    margin-left: 20px;
+}
+#skills > .btskills:hover{
+    padding:  7px 32px;
+
+}
+#skills > #hd > .img{
+    width: 100px;
+    height: 100px;
+    display: none;
 }
 

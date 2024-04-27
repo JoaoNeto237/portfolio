@@ -13,3 +13,11 @@ function mudouTamanho(){
         itens.style.display = "none"
     }
 }
+function click(){
+    const imagem = document.getElementById('hd')
+    if(imagem.style.display === "none"){
+        imagem.style.display = 'block'
+    }else{
+        imagem.style.display = 'none'
+    }
+}
