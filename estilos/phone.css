@@ -10,9 +10,49 @@
 body, html{
     background:linear-gradient(to right, purple, blueviolet);
     color: white;
-    overflow-y: hidden;
+    /*overflow-y: hidden;*/
     
 }
+header{
+    margin: 0px;
+    margin-top: 20px;
+
+}
+header > menu > ul > li  > a{
+    text-decoration: none;
+    color: white;
+}
+
+i#burguer{
+    display: block;
+    color: white;
+    text-align: left;
+    padding: 10px;
+    cursor: pointer;
+}
+i#burguer:hover{
+    background-color: purple;
+    color:white ;
+}
+menu{
+    display: none;
+}
+
+menu > ul{
+    list-style-type: none;
+}
+menu > ul > li > a{
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+    text-align: left;
+    background-color: purple;
+}
+menu > ul > li > a:hover{
+    background-color: blueviolet;
+}
+
 #principal{
     position: relative;
     display: flex;
@@ -47,3 +87,4 @@ section > p{
     line-height: 20px;
     margin: 30px;
 }
+
