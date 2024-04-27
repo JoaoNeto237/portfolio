@@ -10,54 +10,40 @@
 body, html{
     background:linear-gradient(to right, purple, blueviolet);
     color: white;
+    overflow-y: hidden;
     
 }
-#sobre{
+#principal{
     position: relative;
-    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    height: 500px;
 }
-#nome{
-    color: rgb(61, 28, 61);
+.perfil > img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
 }
-.filho{
+.perfil > h1{
+    font-size: 1.3em;
+}
+span{
+    color: rgb(83, 18, 83);
+}
+section{
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-20%, 40%);
-    width: 300px;
-    height: 300px;
-}
-.filho > h1{
-    font-size: 2.5em;
-    line-height: 70px;
-    color:linear-gradient(to right, purple, blueviolet);
-}
-.botao{
-    padding: 10px;
-    background-color: purple;
-    margin-top: 15px;
-    border-radius: 20px;
-    font-size: 15px;
-    cursor: pointer;
-}
-.botao:hover{
-    background-color: rgb(87, 39, 133);
-}
-.botao > a{
-    text-decoration: none;
-    color:white;
+    margin-top: 260px;
     
 }
-#redes_sociais > a > img{
-    display: block;
-    padding: 7px;
-    padding-bottom: 15px;
-    margin: 0px;
-    width: 50px;
-    height: 50px;
+section > h2{
+    text-align: center;
+    
 }
-#redes_sociais > a > img:hover{
-    background-color:rgba(44, 26, 61, 0.274) ;
-    
-    
+section > p{
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    word-wrap: break-word;
+    line-height: 20px;
+    margin: 30px;
 }
